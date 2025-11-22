@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-starter-kit",
-  "version": "2.0.0",
+  "name": "saachi-client",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
