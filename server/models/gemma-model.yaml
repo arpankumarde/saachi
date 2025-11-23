@@ -1,0 +1,12 @@
+spec_version: v1
+kind: model
+name: ollama/gemma3:270m
+display_name: Gemma 3.2 - 270M
+description: |
+  Ollama-hosted model for local or edge deployments.
+tags:
+  - ollama
+model_type: chat
+provider_config:
+  api_key: ollama
+  custom_host: https://5w992d5n-11434.inc1.devtunnels.ms
