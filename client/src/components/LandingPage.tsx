@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from "next/link";
 import { ArrowRight, Heart, Shield, Sparkles, Activity, Book, Brain, Calendar, Zap, Code, Layers, AlertTriangle, Lock, MessageSquare, Terminal } from 'lucide-react';
 
 interface LandingPageProps {
@@ -21,14 +20,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <div className="w-8 h-8 bg-saachi-primary rounded-full flex items-center justify-center text-white font-serif font-bold">S</div>
             <span className="font-serif text-xl text-saachi-text font-bold">Saachi AI</span>
         </div>
-        <Link href="/login">
         <button 
             onClick={onGetStarted}
             className="text-saachi-text font-medium hover:text-saachi-primary transition-colors text-sm"
         >
             Log In
         </button>
-        </Link>
       </nav>
 
       {/* Hero */}
